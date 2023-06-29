@@ -1,0 +1,554 @@
+.cart{
+    width: 100%;
+   
+  
+    text-align: center;
+}
+.cartchild{
+    width: 80%;
+    height: 250px;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    margin: 50px auto;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.5);
+    /* align-items: center; */
+}
+.cartimg img{
+    width: 290px !important;
+    height: 246px !important;
+    /* padding: 10px; */
+}
+
+.pricediv{
+    width: 300px;
+    border-left: 1px solid rgba(128, 128, 128, 0.26);
+    border-right: 1px solid rgba(128, 128, 128, 0.26);
+    color: black;
+}
+.cartdetails{
+  margin: 0px 20px;
+ 
+}
+.cartdetails h4{
+    margin-top: 100px;
+    color: black;
+}
+ h4{
+    color: black;
+    font-size: 14px !important;
+ }
+.jerseybox{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+.jerseynew_div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: rgba(244, 244, 244, 0.555);
+}
+
+.jerseydiv{
+    /* width: 100%; */
+    height: 400px;
+    /* margin: 0px auto; */
+    position: relative !important;
+    display: flex;
+
+}
+
+.imgnone{
+    width: 500px;
+    overflow: hidden;
+}
+
+.imgnone img{
+    width: 100% !important;
+    height: 100%;
+   
+}
+.imgnone img:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+.jerseyoption{
+    width: 140px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  margin-top: 132px;
+
+}
+.jerseychilddiv{
+   margin-top:5px ;
+   margin-right:10px ;
+   width: 130px !important;
+}
+.jerseychilddiv img{
+    width: 100% !important;
+    height: 130px;
+    margin: 0px 5px;
+}
+/* .addtocart{
+width: 100%;
+display: flex;
+justify-content: center;
+} */
+.jerseytype{
+width: 100%;
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+.imgblock{
+display: none;
+}
+.imgblock2{
+display: none;
+}
+.imgblock3{
+display: none;
+}
+#jerseycustomname-1{
+font-size: 36px;
+font-weight: bold;
+position: absolute;
+color: rgb(21, 34, 168);
+left: 47%;
+top:20%;
+width: 150px;
+height: 70px;
+/* border:2px solid wheat; */
+text-align: center;
+}
+#jerseycustomnumber-1{
+font-size: 100px;
+font-weight: bold;
+position: absolute;
+color: rgb(21, 34, 168);
+left: 48%;
+top:30%;
+width: 150px;
+height: 120px;
+/*  border:2px solid rgb(136, 101, 19); */
+text-align: center;
+}
+
+.modificationbox-1{
+    padding: 20px;
+}
+.price-code h2{
+    font-size: 18px !important;
+}
+.avail-opt h2{
+    font-size: 18px !important;
+}
+
+label{
+    margin-right: 10px;
+}
+.Customname{
+    margin-bottom: 5px;
+}
+.customsizebox{
+    
+    text-align: justify;
+}
+#select{
+    text-align: center;
+    outline: none;
+    margin: 5px;
+    padding: 1px 10px;
+    border-radius: 20px;
+    width: 190px;
+}
+#size{
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px;
+    font-size: 13px;
+    outline: none;
+}
+#size option{
+    border-radius: 20px !important;
+}
+
+.addtocart{
+    display: flex;
+   
+}
+.countbox{
+    width: 40px;
+    height: 40px;
+   padding-top: 6px;
+    text-align: center;
+
+    border: 1px solid rgba(128, 128, 128, 0.219);
+}
+.addminusbox p{
+    margin: 0px ;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    width: 20px;
+   cursor: pointer;
+    height: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.addbag{
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    margin-left: 20px;
+    padding: 0px 10px;
+}
+.description{
+    width: 300px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.Decriptionmain{
+    display: flex;
+    justify-content: center;
+}
+.Decriptionmain p{
+    width: 600px;
+    font-size: 14px;
+}
+.Decriptionmain img{
+    width: 400px;
+    height: 450px;
+}
+.decriptext{
+    padding: 50px;
+}
+.reviews input{
+    margin: 10px;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+.reviews button{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 0px 10px ;
+}
+.tabsdiv{
+    text-align: center;
+    background-color:rgba(244, 244, 244, 0.959);
+}
+.css-heg063-MuiTabs-flexContainer{
+   justify-content: center;
+   background-color: rgba(230, 227, 227, 0.089);
+}
+
+@media screen and (max-width:400px){
+.cartchild{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    box-shadow: none;
+}
+.cartimg img{
+    width: 100%;
+}
+.pricediv{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.24);
+}
+.pricediv h4{
+    margin: 0px;
+    margin-top: 10px !important;
+}
+
+.cartdetails h4{
+    width: 100%;
+    margin: 5px;
+    margin-top: 10px !important;
+}
+.jerseynew_div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    margin-top: 0px !important;
+}
+.jerseydiv{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+.imgnone{
+    width: 100% !important;
+}
+.imgnone img{
+    width: 100% !important;
+    padding: 0px;
+}
+.jerseyoption{
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.jerseychilddiv img{
+    width: 100%;
+    /* height: 100%; */
+}
+.description{
+    width: 100%;
+}
+.tabsdiv{
+    width: 100%;
+}
+/* .css-1gsv261{
+    width: 100%;
+   
+} */
+.css-heg063-MuiTabs-flexContainer{
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.Decriptionmain{
+    flex-direction: column;
+}
+.css-13xfq8m-MuiTabPanel-root{
+    padding: 0px !important;
+}
+.decriptext{
+    padding: 5px;
+    width: 100%;
+}
+.decriptext p{
+    width: 100%;
+}
+.Decriptionmain img{
+    width: 100%;
+}
+.size_chart img{
+    width: 100%;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reviews button{
+    width: 100px;
+}
+}
+@media screen and (max-width:550px){
+    .cartchild{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        box-shadow: none;
+    }
+    .cartimg img{
+        width: 100%;
+    }
+    .pricediv{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.24);
+    }
+    .pricediv h4{
+        margin: 0px;
+        margin-top: 10px !important;
+    }
+    
+    .cartdetails h4{
+        width: 100%;
+        margin: 5px;
+        margin-top: 10px !important;
+    }
+    .jerseynew_div{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        margin-top: 0px !important;
+    }
+    .jerseydiv{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .imgnone{
+        width: 100%;
+    }
+    .imgnone img{
+        padding: 0px;
+    }
+    .jerseyoption{
+        width: 100%;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .jerseychilddiv img{
+        width: 100%;
+        /* height: 100%; */
+    }
+    
+    .description{
+        width: 100%;
+    }
+    .tabsdiv{
+        width: 100%;
+    }
+    /* .css-1gsv261{
+        width: 100%;
+       
+    } */
+    .css-heg063-MuiTabs-flexContainer{
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .Decriptionmain{
+        flex-direction: column;
+    }
+    .css-13xfq8m-MuiTabPanel-root{
+        padding: 0px !important;
+    }
+    .decriptext{
+        padding: 5px;
+        width: 100%;
+    }
+    .decriptext p{
+        width: 100%;
+    }
+    .Decriptionmain img{
+        width: 100%;
+    }
+    .size_chart img{
+        width: 100%;
+    }
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .reviews button{
+        width: 100px;
+    }
+    
+}
+@media screen and (max-width:850px){
+    .cartdiv{
+        padding: 20px;
+    }
+    .cartchild{
+        display: flex;
+        align-items: center;
+        
+        height: 100%;
+        width: 100%;
+        /* box-shadow: none; */
+    }
+    .cartimg img{
+        width: 100%;
+    }
+    .pricediv{
+        width: 100%;
+        height: 100%;
+      
+    }
+    .pricediv h4{
+        /* margin: 0px; */
+        margin-top: 10px !important;
+    }
+    
+    .cartdetails h4{
+        width: 100%;
+        margin: 5px;
+        margin-top: 10px !important;
+    }
+    .jerseynew_div{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    .imgnone{
+        /* width: 100%; */
+        /* height: 100%; */
+        margin: 0px auto;
+    }
+    .imgnone img{
+        /* width: 100%; */
+        /* height: 250px; */
+        /* padding: 30px; */
+    }
+    .jerseydiv{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .jerseyoption{
+        flex-direction: row;
+        margin-top: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    .description{
+        width: 100%;
+    }
+    .tabsdiv{
+        width: 100%;
+    }
+    .modificationbox-1{
+        text-align: center;
+    }
+    .customsizebox{
+        text-align: center;
+    }
+    .addtocart{
+        justify-content: center;
+    }
+    .css-heg063-MuiTabs-flexContainer{
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+       
+        align-items: center;
+    }
+    .Decriptionmain{
+        flex-direction: column;
+    }
+    .css-13xfq8m-MuiTabPanel-root{
+        padding: 0px !important;
+    }
+    .decriptext{
+        padding: 5px;
+        width: 100%;
+    }
+    .decriptext p{
+        width: 100%;
+    }
+    .Decriptionmain img{
+        width: 100%;
+    }
+    .size_chart img{
+        width: 100%;
+        padding: 50px;
+    }
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .reviews button{
+        width: 100px;
+    }
+    
+}

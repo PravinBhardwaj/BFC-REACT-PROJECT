@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainbackground{
+    background-image: url(./webisteimg/Web-Banner-2.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+}
+.statement{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin: 0px auto;
+    padding: 20px;
+}
+.bfch1{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    margin: 0px !important;
+}
+@media screen and (max-width:400px){
+    .mainbackground{
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      height: 100%;
+    }
+    .statement{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width:550px){
+    .mainbackground{
+        background-size: 100% 100%;
+      background-repeat: no-repeat;
+      height: 100%;
+    }
+    .statement{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width:850px){
+    .mainbackground{
+        background-size: 100% 100%;
+      background-repeat: no-repeat;
+      height: 100%;
+    }
+    .statement{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width:1024px){
+    .mainbackground{
+        background-size: 100% 100%;
+      background-repeat: no-repeat;
+      height: 100%;
+    }
+    .statement{
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(244,244,244);
+}
+button{
+    padding: 0px 10px;
+    border-radius: 20px;
+   margin-right: 10px;
+   border: none;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: black;
+}
+button:focus:not(:focus-visible){
+    color: white;
+    background-color: blue;
+}
