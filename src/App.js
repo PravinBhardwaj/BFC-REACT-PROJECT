@@ -56,7 +56,7 @@ function App() {
       <Route path='/viewbag' element={<ViewBag/>}/>
       <Route path='checkout' element={<Checkout/>}/>
       <Route path='/handlelink' element={<Leaguetable1/>}/>
-
+      <Route path='BFC-REACT-PROJECT/' element={<Frontpage/>}/>
       <Route path='*' element={<h1>Page Not Found</h1>}/>
      </Routes>
      </BrowserRouter>
