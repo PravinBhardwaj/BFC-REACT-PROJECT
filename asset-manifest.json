@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BFC-REACT-PROJECT/static/css/main.2640c701.css",
-    "main.js": "/BFC-REACT-PROJECT/static/js/main.8307f7a1.js",
+    "main.js": "/BFC-REACT-PROJECT/static/js/main.804244cb.js",
     "static/js/787.a2bf511c.chunk.js": "/BFC-REACT-PROJECT/static/js/787.a2bf511c.chunk.js",
     "static/media/Web-Banner-2.jpg": "/BFC-REACT-PROJECT/static/media/Web-Banner-2.2234c20b1532f0804eac.jpg",
     "static/media/membership.png": "/BFC-REACT-PROJECT/static/media/membership.077d9eb3756e77f15804.png",
@@ -76,11 +76,11 @@
     "static/media/slick.woff": "/BFC-REACT-PROJECT/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/BFC-REACT-PROJECT/index.html",
     "main.2640c701.css.map": "/BFC-REACT-PROJECT/static/css/main.2640c701.css.map",
-    "main.8307f7a1.js.map": "/BFC-REACT-PROJECT/static/js/main.8307f7a1.js.map",
+    "main.804244cb.js.map": "/BFC-REACT-PROJECT/static/js/main.804244cb.js.map",
     "787.a2bf511c.chunk.js.map": "/BFC-REACT-PROJECT/static/js/787.a2bf511c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2640c701.css",
-    "static/js/main.8307f7a1.js"
+    "static/js/main.804244cb.js"
   ]
 }
