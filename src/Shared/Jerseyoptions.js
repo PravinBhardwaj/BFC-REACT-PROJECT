@@ -62,12 +62,12 @@ const Jerseyoptions=(props)=>{
   const handleCustomizedNameChange = (event) => {
     let value = event.target.value;
 
-    // Remove any non-alphabetic characters from the value
+    
     value = value.replace(/[^a-zA-Z]/g, '');
 
-    // Check if the value exceeds 10 characters
+    
     if (value.length > 10) {
-      value = value.substring(0, 10); // Truncate the value to the first 10 characters
+      value = value.substring(0, 10); 
     }
 
     setCustomizedName(value);

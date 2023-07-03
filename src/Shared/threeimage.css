@@ -239,10 +239,13 @@ label{
     background-color:rgba(244, 244, 244, 0.959);
 }
 .css-heg063-MuiTabs-flexContainer{
-   justify-content: center;
+   justify-content: center !important;
    background-color: rgba(230, 227, 227, 0.089);
 }
-
+.css-k008qs{
+    display: flex !important;
+    justify-content: center !important;
+}
 @media screen and (max-width:400px){
 .cartchild{
     display: flex;
